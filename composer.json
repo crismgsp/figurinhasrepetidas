@@ -1,0 +1,16 @@
+{
+    "description": "Troca de figurinhas repetidas",
+    "authors": [{
+        "name": "Cristina Carvalho Gomes",
+        "email":"crismgsp@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app",
+            "Adms\\": "app/adms"
+            
+        }
+    }
+
+}
