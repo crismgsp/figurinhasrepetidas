@@ -2,7 +2,7 @@
 <p> Em dezembro e janeiro fiquei assistindo a um curso de criação de sistemas administrativos com niveis de acesso que eu tinha começado em junho, e 
 nos finais de semana fui algumas vezes junto com meu filho trocar figurinhas da copa, e achei muito demorado, ficar conferindo aqueles montes muito
 grandes de figurinhas repetidas, e cheguei em casa num destes fins de semana e resolvi usar alguns conhecimentos do curso para criar esta aplicação, que na
-verdade não foi utilizada por eu ter feito ela em janeiro, quando  poucas pessoas ainda estão trocando figurinhas, mas já deixei pronto para uma próxima oportunidade. </p> 
+verdade não foi utilizada por eu ter feito ela em janeiro, quando a maioria das pessoas já haviam parado de trocar figurinhas, mas já deixei pronto para uma próxima oportunidade. </p> 
 <p> É uma aplicação bem simples, pois o objeto era utilizar em grupo de pessoas mais ou menos conhecidas (que tem contato ao trocar as figurinhas) onde tem a tela de login,  para atender ao objetivo do momento...fiz o cadastro de usuario e senha diretamente no banco de dados mesmo, pelo menos por enquanto está assim.  Ao se logar o usuario cadastrado pode inserir suas figurinhas  e estas já saem associadas ao seu nome, e ele tambem pode apagar somente suas figurinhas, e tem as telas de visualizar todas figurinhas e pesquisar por figurinhas específicas que além de ser acessada pelos usuarios logados podem ser acessadas também sem o login (foram colocadas como públicas), desde que a pessoa saiba o link, para que ela veja se tem alguma figurinha que falta pra ela dentre as repetidas </p>
 <p> O que utilizei que aprendi neste curso, que irei deixar o link abaixo para quem tenha interesse: </p>
 <p> formulário de pesquisar </p>
