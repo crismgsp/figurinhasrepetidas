@@ -35,10 +35,28 @@ class AdmsDeletefigurinha
         //exit();
 
         if($this->viewFigurinha()){
-            $deleteUser = new \App\adms\Models\helper\AdmsDelete();
-            $deleteUser->exeDelete("figurinhas", "WHERE id =:id AND nome=:nome", "id={$this->id}&nome={$this->nome}");
-    
-            if ($deleteUser->getResult()) {
+            //var_dump($this->resultBd[0]['nome']);
+            //echo "nome do usuario logado";
+            //var_dump($this->nome);
+            //exit();
+
+            if($this->resultBd[0]['nome'] == $this->nome) {
+                $deleteUser = new \App\adms\Models\helper\AdmsDelete();
+            
+                $deleteUser->exeDelete("figurinhas", "WHERE id =:id AND nome=:nome", "id={$this->id}&nome={$this->nome}");
+
+                $_SESSION['msg'] = "<p class='alert-success'>Figurinha apagada</p>";
+                $this->result = true;
+
+            }else {
+                $_SESSION['msg'] = "<p class='alert-danger'>Voce não pode apagar a figurinha de outra pessoa!</p>";
+                $this->result = false;
+            }
+        }    
+            
+
+                
+           /* if ($deleteUser->getResult()) {
                 //$this->deleteImg();
                 $_SESSION['msg'] = "<p class='alert-success'>Figurinha apagada</p>";
                 $this->result = true;
@@ -48,7 +66,7 @@ class AdmsDeletefigurinha
             }
         }else{
             $this->result = false;
-        }
+        } */
         
     }
 

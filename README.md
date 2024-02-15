@@ -14,7 +14,8 @@ https://celke.com.br/curso/sistema-administrativo-com-nivel-de-acesso </p>
 
 <p>Obs: Fiz a parte visual mais adaptada para celular, imaginando que a maioria das pessoas que possam se interessar devem preferir utiliza-lo através do celular, dá pra visualizar pelo computador mas fica um pouco melhor visualmente no celular. </p>
 <p>Neste vídeo abaixo dá para ver como funciona, coloquei como se tivesse em um Samsung Galaxy S20 Ultra:</p>
-<p> Obs: quando a pessoa tenta apagar a figurinha de outra aparece a mensagem que apagou, mas não funciona a exclusão da figurinha de outro usuário (apenas aparece a mensagem errada...mas ainda não entendi porque... quando descobrir corrijo), quando ela clica pra apagar sua própria figurinha funciona e aparece a mesma mensagem (desta vez correta).</p>
+<p> Obs: quando a pessoa tenta apagar a figurinha de outra aparece a mensagem que apagou, mas ja corrigi este detalhe e agora está aparecendo a mensagem correta
+Não é possivel uma pessoa apagar a figurinha de outro usuário</p>
 <p>https://www.youtube.com/watch?v=Yzhq_ySiZ_U</p>
 
 
